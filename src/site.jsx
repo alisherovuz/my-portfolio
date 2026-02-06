@@ -269,23 +269,7 @@ function HomePage({ setPage }) {
               </button>
             </div>
 
-            {/* Quick stats */}
-            <div style={{
-              display: "flex", gap: 32, marginTop: 56,
-              animation: "fadeUp 0.8s cubic-bezier(0.22,1,0.36,1) 0.65s both",
-            }}>
-              {[
-                { num: "30K+", label: "students reached" },
-                { num: "$1M+", label: "in scholarships" },
-                { num: "350+", label: "mentored in AI" },
-              ].map((s, i) => (
-                <div key={i}>
-                  <div style={{ fontFamily: "'Source Serif 4', serif", fontSize: 22, fontWeight: 700, color: "#1A1A1A", letterSpacing: "-0.02em" }}>{s.num}</div>
-                  <div style={{ fontFamily: "'JetBrains Mono'", fontSize: 10, color: "#1A1A1A22", letterSpacing: "0.06em", marginTop: 4 }}>{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
+          
 
           {/* Photo */}
           <div style={{
