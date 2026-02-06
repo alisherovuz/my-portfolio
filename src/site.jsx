@@ -4,9 +4,9 @@ import { useArticles } from "./useArticles";
 // ── Placeholder photos (replace with real URLs) ──
 const PHOTO = "/me.jpg";
 const PHOTO_DG = "/dg.jpg";
-const PHOTO_TEAM = "/team.jpg";
+const PHOTO_TEAM = "/team.jpeg";
 const PHOTO_MENTOR = "/mentor.jpg";
-const PHOTO_EVENT = "/event.jpg";
+const PHOTO_EVENT = "/event.jpeg";
 
 // ── Data ──────────────────────────────────────
 const TIMELINE = [
