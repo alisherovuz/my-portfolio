@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from "react";
 import { useArticles } from "./useArticles";
 
 // ── Placeholder photos (replace with real URLs) ──
-const PHOTO = "";
-const PHOTO_DG = "";
-const PHOTO_TEAM = "";
-const PHOTO_MENTOR = "";
-const PHOTO_EVENT = "";
+const PHOTO = "/me.jpg";
+const PHOTO_DG = "/dg.jpg";
+const PHOTO_TEAM = "/team.jpg";
+const PHOTO_MENTOR = "/mentor.jpg";
+const PHOTO_EVENT = "/event.jpg";
 
 // ── Data ──────────────────────────────────────
 const TIMELINE = [
